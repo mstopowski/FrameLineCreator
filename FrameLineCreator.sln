@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrameLineCreator", "FrameLineCreator\FrameLineCreator.csproj", "{867924BC-936C-4C26-B043-6CFAFBE29818}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{867924BC-936C-4C26-B043-6CFAFBE29818}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{867924BC-936C-4C26-B043-6CFAFBE29818}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{867924BC-936C-4C26-B043-6CFAFBE29818}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{867924BC-936C-4C26-B043-6CFAFBE29818}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
