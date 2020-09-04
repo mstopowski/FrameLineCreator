@@ -51,14 +51,14 @@ namespace FrameLineCreator
             int frameHeight = 400;
 
             RhinoGet.GetInteger("Enter starting frame number: ", false, ref startFrame);
-            RhinoGet.GetInteger("Enter ending frame number: ", false, ref endFrame);
-            RhinoGet.GetInteger("Enter spacing: ", false, ref spacing);
+            RhinoGet.GetInteger("Enter end frame number: ", false, ref endFrame);
+            RhinoGet.GetInteger("Enter typical spacing: ", false, ref spacing);
             RhinoGet.GetBool("Do you want to insert local modification of spacing?", true, "No", "Yes", ref modify);
 
             while (modify)
             {
                 RhinoGet.GetInteger("Enter starting frame of modification: ", false, ref startMod);
-                RhinoGet.GetInteger("Enter ending frame of modification: ", false, ref endMod);
+                RhinoGet.GetInteger("Enter end frame of modification: ", false, ref endMod);
                 RhinoGet.GetInteger("Enter spacing of modification: ", false, ref spacMod);
 
                 startModList.Add(startMod);
